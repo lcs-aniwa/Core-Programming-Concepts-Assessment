@@ -25,21 +25,18 @@
  */
 // Answer question 2 below
 
-/*:
- ## Now share your understanding
- 
- 1. Commit your response on this page (Option-Command-C).
- 2. [Add a link][al] to your Computer Science portfolio.
- 
- [al]:
- https://www.youtube.com/watch?v=Wa3Wl3T25jo&list=PLTGGOQnktyWs9TlNJ30pgYgypvIGrt3Lx&index=1
- 
- ### Learning Goal
- 
- * Programming: Goal 1 
-    * *Knowledge*
-        * I know the difference between a constant and a variable and when it is appropriate to use each.
- 
- [Next](@next)
- */
+var NameOfBook : Int
+var Authorname : Int
+var Yearpublushed : Int
+print ("The name of the book, the authorname and the yearpublushed never change, so it is constant")
+
+
+let NumberOfCopiesSold : Int
+let Sellingprice : Int
+print ("The number of copies sold and sellingprise would be change, so it is variable")
+
+
+
+
+
 
