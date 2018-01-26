@@ -25,14 +25,14 @@
  */
 // Answer question 2 below
 
-var NameOfBook : Int
-var Authorname : Int
-var Yearpublushed : Int
+let NameOfBook = "Computer Science"
+let AuthorName = "Ayana"
+let Yearpublushed = 2018
 print ("The name of the book, the authorname and the yearpublushed never change, so it is constant")
 
 
-let NumberOfCopiesSold : Int
-let Sellingprice : Int
+var NumberOfCopiesSold = 9000
+var Sellingprice = 20
 print ("The number of copies sold and sellingprise would be change, so it is variable")
 
 

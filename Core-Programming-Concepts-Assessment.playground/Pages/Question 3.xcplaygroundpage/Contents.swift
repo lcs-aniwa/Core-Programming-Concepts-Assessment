@@ -23,14 +23,14 @@
  
  */
 // Answer question 3 below
-var spendingMoney = 0
+var spendingMoney = 0.0// declear it's a double by chaning 0 to 0.0
 
-spendingMoney += 50
-spendingMoney /= 3
-spendingMoney += 10
-spendingMoney -= 10
+spendingMoney += 50.0 //double value
+spendingMoney /= 3.0
+spendingMoney += 10.0
+spendingMoney -= 10.0
 spendingMoney -= 5.50
-spendingMoney *= 2
+spendingMoney *= 2.0
 
 
 
