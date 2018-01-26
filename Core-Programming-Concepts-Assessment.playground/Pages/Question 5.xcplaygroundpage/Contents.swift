@@ -23,18 +23,24 @@ let newSnowfallAmount = 9
 let temperatureInCelsius = -6
 let isSnowMakingEquipmentBroken = true
 
-let isSnowMakingEquipmentBroken = newSnowfallAmount >= 10 || temperatureInCelsius >= -5 &&
+
+// Answer question 5 below
+let isNiceCondition = !isSnowMakingEquipmentBroken || temperatureInCelsius < -5 && newSnowfallAmount > 10
 
 
-if isSnowMakingEquipmentBroken {
+if isNiceCondition {
     print ("we are open")
-
+    
 } else {
     print ("we are closed")
 }
 
 
-// Answer question 5 below
+
+
+
+
+
 
 
 /*:
